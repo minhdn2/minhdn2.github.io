@@ -29,10 +29,6 @@
             border-top: 1px solid #26a69a;
             text-align: center;
         }
-
-        section {
-            padding-top: 100px !important;
-        }
     </style>
 </head>
 
@@ -83,8 +79,8 @@
     <section class="container section scrollspy" id="hung-hoang">
         <div class="row">
             <div class="col s12 l12 title-divide">
-                <h2 style="display: inline">Hung Hoang</h2>
-                <h6 style="display: inline"> (A.k.a Hưng Tào Tháo)</h5>
+                <h2>Hung Hoang</h2>
+                <h6> (A.k.a Hưng Tào Tháo)</h5>
             </div>
         </div>
         <div class="row">
@@ -359,8 +355,8 @@
     <section class="container section scrollspy" id="duong-pham">
         <div class="row">
             <div class="col s12 l12 title-divide">
-                <h2 style="display: inline">Duong Pham</h2>
-                <h6 style="display: inline"> (A.k.a Dương vat To ^.^)</h5>
+                <h2>Duong Pham</h2>
+                <h6> (A.k.a Dương vat To ^.^)</h5>
             </div>
         </div>
         <div class="row">
@@ -635,8 +631,8 @@
     <section class="container section scrollspy" id="trong-nguyen">
         <div class="row">
             <div class="col s12 l12 title-divide">
-                <h2 style="display: inline">Trong Nguyen</h2>
-                <h6 style="display: inline"> (A.k.a Trọng Chủ Tịch)</h5>
+                <h2>Trong Nguyen</h2>
+                <h6> (A.k.a Trọng Chủ Tịch)</h5>
             </div>
         </div>
         <div class="row">
@@ -911,8 +907,8 @@
     <section class="container section scrollspy" id="minh-duong">
         <div class="row">
             <div class="col s12 l12 title-divide">
-                <h2 style="display: inline">Minh Duong</h2>
-                <h6 style="display: inline"> (A.k.a Minh Tào Phớ)</h5>
+                <h2>Minh Duong</h2>
+                <h6> (A.k.a Minh Tào Phớ)</h5>
             </div>
         </div>
         <div class="row">
@@ -1183,6 +1179,22 @@
     </section>
 
 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.datepicker').datepicker({
+                disableWeekends: true //https://materializecss.com/pickers.html
+            });
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
 </body>
 
 </html>
