@@ -74,7 +74,6 @@
         monospace;
     }
 
-
     h2,
     h4,
     h5,
@@ -97,6 +96,10 @@
       border-bottom: 1px solid #7986cb; */
       background: #e8eaf6;
       text-align: center;
+    }
+
+    .section {
+      padding-left: 20px;
     }
   </style>
 </head>
@@ -126,7 +129,7 @@
         </ul>
       </header>
       <div>
-        <section class="container">
+        <div class="container">
           <div class="row">
             <div class="col s12 l12 userName">
               <h2>Minh Duong</h2>
@@ -138,7 +141,7 @@
                   class="responsive-img materialboxed"></div>
             </div>
             <div class="col s12 l8">
-              <section class="container section scrollspy" id="about-me">
+              <section class="section scrollspy" id="about-me">
                 <h4><strong>ABOUT ME</strong></h4><span>
                   <h5>Summary</h5>
                   <p>An experienced .NET web application developer, who has been working in several enterprise
@@ -164,7 +167,7 @@
                   <div class="col s12 l6"></div>
                 </div>
               </section>
-              <section class="container section scrollspy" id="skills">
+              <section class="section scrollspy" id="skills">
                 <h4><strong>SKILLS</strong></h4>
                 <div class="row">
                   <div class="col s12 l4">
@@ -195,7 +198,7 @@
                   </div>
                 </div><br>
               </section>
-              <section class="container section scrollspy" id="experiences">
+              <section class="section scrollspy" id="experiences">
                 <h4><strong>EXPERIENCES</strong></h4><span>
                   <h5>Career Summary</h5><span>- Working with .NET projects for enterprise since 2015.<br></span><span>-
                     Have strong knowledge of web-based application, software design, Windows Service,
@@ -368,7 +371,7 @@
                   </div>
                 </div><br>
               </section>
-              <section class="container section scrollspy" id="education">
+              <section class="section scrollspy" id="education">
                 <h4><strong>EDUCATION</strong></h4>
                 <div>
                   <div>
@@ -384,36 +387,34 @@
               </section>
             </div>
           </div>
-        </section>
-
-
+          </section>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="./index_files/jquery-3.3.1.min.js.download"></script>
-  <script src="./index_files/materialize.min.js.download"></script>
-  <script>
-    $(document).ready(function () {
-      $('.sidenav').sidenav();
-      $('.materialboxed').materialbox();
-      $('.parallax').parallax();
-      $('.tabs').tabs();
-      $('.datepicker').datepicker({
-        disableWeekends: true //https://materializecss.com/pickers.html
+    <!-- Compiled and minified JavaScript -->
+    <script src="./index_files/jquery-3.3.1.min.js.download"></script>
+    <script src="./index_files/materialize.min.js.download"></script>
+    <script>
+      $(document).ready(function () {
+        $('.sidenav').sidenav();
+        $('.materialboxed').materialbox();
+        $('.parallax').parallax();
+        $('.tabs').tabs();
+        $('.datepicker').datepicker({
+          disableWeekends: true //https://materializecss.com/pickers.html
+        });
+        $('.tooltipped').tooltip();
+        $('.scrollspy').scrollSpy();
       });
-      $('.tooltipped').tooltip();
-      $('.scrollspy').scrollSpy();
-    });
-  </script>
-  <script src="./index_files/bundle.js.download"></script>
-  <script src="./index_files/0.chunk.js.download"></script>
-  <script src="./index_files/main.chunk.js.download"></script>
+    </script>
+    <script src="./index_files/bundle.js.download"></script>
+    <script src="./index_files/0.chunk.js.download"></script>
+    <script src="./index_files/main.chunk.js.download"></script>
 
 
-  <div class="sidenav-overlay"></div>
-  <div class="drag-target"></div>
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
 </body>
 
 </html>
