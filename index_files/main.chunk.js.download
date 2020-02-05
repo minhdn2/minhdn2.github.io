@@ -1,0 +1,1340 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\n    monospace;\n}\n\n\nh2,\n    h4,\n    h5,\n    h6,\n    .h7 {\n      color: #7986cb;\n    }\n\n    p {\n      text-align: justify;\n    }\n\n    .userName{\n      border-top: 1px solid #7986cb;\n      text-align: center;\n    }\n\n    .title-divide {\n      /* border-top: 1px solid #7986cb;\n      border-bottom: 1px solid #7986cb; */\n      background: #e8eaf6;\n      text-align: center;\n    }", ""]);
+
+
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_CvItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/CvItem */ "./src/components/CvItem.js");
+/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data.json */ "./src/data.json");
+var _data_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data.json */ "./src/data.json", 1);
+var _jsxFileName = "C:\\Git\\fullstackteam-cv\\src\\App.js";
+
+
+
+
+class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      cvItems: _data_json__WEBPACK_IMPORTED_MODULE_2__.cvItems
+    };
+  }
+
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "App",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "navbar-fixed",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+      className: "nav-wraper indigo",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "container",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "#",
+      className: "brand-logo",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, "OnlineCV")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "#",
+      className: "sidenav-trigger",
+      "data-target": "mobile-menu",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      className: "material-icons",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, "menu")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      className: "right hide-on-med-and-down",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "#minh-duong",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, "Minh Duong")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      className: "sidenav grey lighten-2",
+      id: "mobile-menu",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "#minh-duong",
+      className: "sidenav-close",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }, "Minh Duong")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CvItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      cvItems: this.state.cvItems,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/components/CvItem.js":
+/*!**********************************!*\
+  !*** ./src/components/CvItem.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _EmploymentHistory__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EmploymentHistory */ "./src/components/EmploymentHistory.js");
+/* harmony import */ var _Education__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Education */ "./src/components/Education.js");
+var _jsxFileName = "C:\\Git\\fullstackteam-cv\\src\\components\\CvItem.js";
+
+
+
+
+class CvItem extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      cvItems: props.cvItems
+    };
+  }
+
+  render() {
+    const cvItemList = this.state.cvItems.map(cv => {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+        className: "container section scrollspy",
+        id: cv.id,
+        key: cv.id,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col s12 l12 userName",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, cv.userName))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col s12 l4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: cv.imgSrc,
+        alt: "",
+        className: "responsive-img materialboxed",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col s12 l8",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, "ABOUT ME")), (() => {
+        return cv.aboutMe.summary !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 31
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 32
+          },
+          __self: this
+        }, "Summary"), cv.aboutMe.summary.split('\n').map(x => {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+            key: x,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 34
+            },
+            __self: this
+          }, x);
+        })) : null;
+      })(), (() => {
+        return cv.aboutMe.objective !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 41
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 42
+          },
+          __self: this
+        }, "Objective"), cv.aboutMe.objective.split('\n').map(x => {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+            key: x,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 44
+            },
+            __self: this
+          }, x);
+        })) : null;
+      })(), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col s12 l6",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }, "Personal Details"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }, "Full name:"), " ", cv.aboutMe.personalDetails.fullName, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        },
+        __self: this
+      }, "Alias:"), " ", cv.aboutMe.personalDetails.alias, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }, "Job title:"), " ", cv.aboutMe.personalDetails.jobTitle, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        },
+        __self: this
+      }, "Marital status:"), " ", cv.aboutMe.personalDetails.maritalStatus, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }, "Email:"), " ", cv.aboutMe.personalDetails.email, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        },
+        __self: this
+      }, "Skype ID:"), " ", cv.aboutMe.personalDetails.skypeId, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }, "Mobile:"), " ", cv.aboutMe.personalDetails.mobile, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col s12 l6",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        },
+        __self: this
+      }, (() => {
+        return cv.aboutMe.interest !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: cv.aboutMe.interest,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 65
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 66
+          },
+          __self: this
+        }, "Interests"), cv.aboutMe.interest.split('\n').map(x => {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+            key: x,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 68
+            },
+            __self: this
+          }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 68
+            },
+            __self: this
+          }));
+        })) : null;
+      })())), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        },
+        __self: this
+      }, "SKILLS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col s12 l4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79
+        },
+        __self: this
+      }, "Programming Languages"), cv.aboutMe.skills.programmingLanguages.split('\n').map(x => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: x,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 81
+          },
+          __self: this
+        }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 81
+          },
+          __self: this
+        }));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83
+        },
+        __self: this
+      }, "Frameworks & Platforms"), cv.aboutMe.skills.frameworksPlatforms.split('\n').map(x => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: x,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 85
+          },
+          __self: this
+        }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 85
+          },
+          __self: this
+        }));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87
+        },
+        __self: this
+      }, "Database"), cv.aboutMe.skills.database.split('\n').map(x => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: x,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 89
+          },
+          __self: this
+        }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 89
+          },
+          __self: this
+        }));
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col s12 l4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }, "Version Control"), cv.aboutMe.skills.versionControl.split('\n').map(x => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: x,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 95
+          },
+          __self: this
+        }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 95
+          },
+          __self: this
+        }));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
+        },
+        __self: this
+      }, "IDE"), cv.aboutMe.skills.ide.split('\n').map(x => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: x,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 99
+          },
+          __self: this
+        }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 99
+          },
+          __self: this
+        }));
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101
+        },
+        __self: this
+      }, "Foreign Language"), cv.aboutMe.skills.foreignLanguage.split('\n').map(x => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: x,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 103
+          },
+          __self: this
+        }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 103
+          },
+          __self: this
+        }));
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col s12 l4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        },
+        __self: this
+      }, "Knowledge / Other Skills"), cv.aboutMe.skills.knowledge.split('\n').map(x => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: x,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 109
+          },
+          __self: this
+        }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 109
+          },
+          __self: this
+        }));
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 113
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 114
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 114
+        },
+        __self: this
+      }, "EXPERIENCES")), (() => {
+        return cv.experiences.careerSummary !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 117
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 118
+          },
+          __self: this
+        }, "Career Summary"), cv.experiences.careerSummary.split('\n').map(x => {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+            key: x,
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 120
+            },
+            __self: this
+          }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 120
+            },
+            __self: this
+          }));
+        })) : null;
+      })(), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 125
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 126
+        },
+        __self: this
+      }, "Employment History - Work Experiences"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_EmploymentHistory__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        employmentHistories: cv.experiences.employmentHistory,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 127
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 129
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 130
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 130
+        },
+        __self: this
+      }, "EDUCATION")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Education__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        educations: cv.education,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 131
+        },
+        __self: this
+      }))));
+    });
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 138
+      },
+      __self: this
+    }, cvItemList);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CvItem);
+
+/***/ }),
+
+/***/ "./src/components/Education.js":
+/*!*************************************!*\
+  !*** ./src/components/Education.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Git\\fullstackteam-cv\\src\\components\\Education.js";
+
+
+const Education = ({
+  educations
+}) => {
+  const educationList = educations.map(edu => {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      key: edu.id,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      },
+      __self: undefined
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: undefined
+    }, edu.title), (() => {
+      return edu.description !== "" ? edu.description.split('\n').map(x => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: Math.random(),
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 11
+          },
+          __self: undefined
+        }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 11
+          },
+          __self: undefined
+        }));
+      }) : null;
+    })());
+  });
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: undefined
+  }, educationList);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Education);
+
+/***/ }),
+
+/***/ "./src/components/EmploymentHistory.js":
+/*!*********************************************!*\
+  !*** ./src/components/EmploymentHistory.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Git\\fullstackteam-cv\\src\\components\\EmploymentHistory.js";
+
+
+const EmploymentHistory = ({
+  employmentHistories
+}) => {
+  const historyList = employmentHistories.map(emp => {
+    var desClass = "col s12 l12";
+    var resClass = "col s12 l12";
+    var techClass = "col s12 l12";
+
+    if (emp.description !== "" && emp.responsibility !== "" || emp.description !== "" && emp.technologies !== "" || emp.responsibility !== "" && emp.technologies !== "") {
+      desClass = "col s12 l6";
+      resClass = "col s12 l6";
+      techClass = "col s12 l6";
+    }
+
+    if (emp.description !== "" && emp.responsibility !== "" && emp.technologies !== "") techClass = "col s12 l12";
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      key: emp.id,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: undefined
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "col s12 l12 title-divide",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: undefined
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: undefined
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: undefined
+    }, emp.title))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: undefined
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: undefined
+    }, (() => {
+      return emp.position !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        key: emp.position,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: undefined
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: undefined
+      }, "Position:"), " ", emp.position, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: undefined
+      })) : null;
+    })(), (() => {
+      return emp.productLink !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        key: emp.productLink,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: undefined
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: undefined
+      }, "Product Link:"), " ", emp.productLink, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: undefined
+      })) : null;
+    })(), (() => {
+      return emp.duration !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        key: emp.duration,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: undefined
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: undefined
+      }, "Duration:"), " ", emp.duration, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: undefined
+      })) : null;
+    })(), (() => {
+      return emp.company !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        key: emp.company,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: undefined
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: undefined
+      }, "Company:"), " ", emp.company, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: undefined
+      })) : null;
+    })(), (() => {
+      return emp.teamSize !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        key: emp.teamSize,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: undefined
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "h7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: undefined
+      }, "Team Size:"), " ", emp.teamSize, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: undefined
+      })) : null;
+    })()), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "row",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: undefined
+    }, (() => {
+      return emp.description !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: desClass,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        },
+        __self: undefined
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: undefined
+      }, "Description"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        },
+        __self: undefined
+      }, emp.description.split('\n').map(x => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: x,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 58
+          },
+          __self: undefined
+        }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 58
+          },
+          __self: undefined
+        }));
+      }))) : null;
+    })(), (() => {
+      return emp.responsibility !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: resClass,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        },
+        __self: undefined
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        },
+        __self: undefined
+      }, "Responsibility"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        },
+        __self: undefined
+      }, emp.responsibility.split('\n').map(x => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: x,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 70
+          },
+          __self: undefined
+        }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 70
+          },
+          __self: undefined
+        }));
+      }))) : null;
+    })(), (() => {
+      return emp.technologies !== "" ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: techClass,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78
+        },
+        __self: undefined
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79
+        },
+        __self: undefined
+      }, "Technologies"), emp.technologies.split('\n').map(x => {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          key: x,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 82
+          },
+          __self: undefined
+        }, x, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 82
+          },
+          __self: undefined
+        }));
+      })) : null;
+    })()));
+  });
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: undefined
+  }, historyList);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (EmploymentHistory);
+
+/***/ }),
+
+/***/ "./src/data.json":
+/*!***********************!*\
+  !*** ./src/data.json ***!
+  \***********************/
+/*! exports provided: cvItems, default */
+/***/ (function(module) {
+
+module.exports = {"cvItems":[{"id":"minh-duong","userName":"Minh Duong","imgSrc":"https://minhdn2.github.io/img/minh.duong.JPEG","aboutMe":{"summary":"An experienced .NET web application developer, who has been working in several enterprise applications since 2015, with a fine knowledge of Database Design, Design Pattern, Object-Oriented Programming.\nSolid experience on ASP.NET Web Form and ASP.NET MVC technologies, as well as JavaScript, Twitter Bootstrap and responsive web design. Have knowledge about distributed programming with WCF, Web APIs and efficient development modal like Agile-Scrum. English skill is fluent with IELTS 6.0, certificated since April 2016.\nGood in teamwork and communication, like to help and learn from other members and tend to work well within a group.","objective":"","personalDetails":{"fullName":"Duong Nhat Minh","alias":"Minh Duong","jobTitle":"Full Stack Developer","maritalStatus":"Single","email":"minhduongnhat@outlook.com","skypeId":"minhdn1102","mobile":"+84 976 716 296"},"interest":"","skills":{"programmingLanguages":"- C# .NET\n- Javascript\n- HTML5, CSS3\n","frameworksPlatforms":"- ASP.NET MVC\n- ASP.NET Webform\n- WCF\n- ASP.NET Web API\n- ASP.NET Core\n- React\n- Angular 2+\n- JQuery / Twitter Bootstrap","database":"- Microsoft SQL\n- Basic knowledge of MongoDB\n- MySQL\n- Oracle","versionControl":"- GIT (Github & GitLab)\n- Team Foundation Server\n- SVN (TortoiseSVN)","ide":"- Visual Studio\n- Visual Code\n- Brackets","foreignLanguage":"- TOEIC 750/900 (recorded 2017)\n- IELTS 6.0 (recorded April 2016)","knowledge":"- Unit Testing\n- Dependency Injection\n- Clean code and code refactoring\n- OOP, Design Pattern, SOLID principles\n- Agile and Scrum process\n- Software design, database design, Restful API\n- Time management, presentation and teamwork skills"}},"experiences":{"careerSummary":"- Working with .NET projects for enterprise since 2015.\n- Have strong knowledge of web-based application, software design, Windows Service, WCF.\n- Fluent in English communication – IELTS 6.0 since April 2016.\n- Familiar with Agile, Scum projects.\n- Working in many OSDC projects. Working directly with customers.","employmentHistory":[{"id":"emp1","title":"Top UK's Recruiter Company - Reed","productLink":"","position":"Backend Developer","duration":"September 2018 - Present","company":"Harveynash - NashTech","teamSize":"22 members","description":"For a long time, since 1995, the company has been the best recruiter platform in the United Kingdom. Now they are still one of the best.\nThe company provides a service which connect both the recruiters and the people looking for a job in the most efficient way.\nHave been running for a long time, the old service is no longer catchup with the latest technologies and the latest business domains, therefor no longer able to provide the best service for their customers.\nA development team is founded to help improve the company's service to be more efficient and able to match with the latest requirements of the new era. The new development team has 20+ memebers with 2 sub-teams:\n- Recruiter: handing the business for the recruiter to find proper, relevant and suitable candidates\n- Jobseeker: handing the business that allows the people to find the correct jobs and companies that they are looking for","responsibility":"As one of the experienced developers with fluent English communication skill, I was put into the Jobseeker team to handle the core business domain directly with the custsomer.\n- Communicate with customer to get clear requirements\n- Breakdown customer's requirements to tickets and sub-tasks\n- Refinement and planning for sprints\n- Update code according to the ticket's requirements, for the tickets wich are assigned to me\n- Help and support other team members for their tickets, and for communication with customer\n- Perform unit testing\n- Sometime reviewing tickets are done by other team members","technologies":"- ASP.NET MVC\n- REACT, Knockout JS, HTML, CSS, Twitter Bootstrap\n- Dapper, NHibernate\n- Entities Framework\n- Web APIs\n- SQL SERVER\n- Design patterns"},{"id":"emp2","title":"Sitecore Team for an Airline Corporation - Vietnam Airline","productLink":"","position":"Backend Developer","duration":"January 2018 - May 2018","company":"FPT Software - FSU1.BU9","teamSize":"5 members","description":"The customer is one of the biggest airline in Vietnam and they are in need of updating their services to be more efficient, the development team is founded to help on updating the technologies on the customer's services so that these can operate more properly and more efficiently.","responsibility":"- Study Functional Design Specification\n- Produce Technical Design Specification, Design Input\n- Creating UI with Sitecore and MVC\n- Coding Web API\n- Update and manage stored procedures\n- Coding Unit Test","technologies":"- Site Core for ASP.NET Webform and ASP.NET for MVC\n- ASP.NET MVC\n- ASP.NET Webform\n- Entities Framework\n- Web APIs\n- SQL Server\n- HTML\n- CSS\n- JavaScripts\n- JQuery"},{"id":"emp 3","title":"Sitecore Team for an Energy Provider Corporation - Innogy","productLink":"","position":"Full Stack Developer","duration":"June 2017 - December 2017","company":"FPT Software - FSU1.BU9","teamSize":"6 members","description":"The customer is one of the greatests energy corporation in the world. Is the main energy provider for all countries in Europe.\nThe team is born to help the customer to manage their websites in order to:\n- Increase their client's range\n- Provide a better and more efficient way for the clients to apporache their services and products\n- Allow the customer to easily control and maintain their websites\n- Allow the customer to have better knowledge about their clients (statistic reports)","responsibility":"- Study Functional Design Specification\n- Produce Technical Design Specification, Design Input\n- Creating UI with Sitecore and MVC\n- Coding Web API\n- Update and manage stored procedures\n- Coding Unit Test","technologies":"- Site Core for ASP.NET MVC\n- ASP.NET MVC\n- Entities Framework\n- Web APIs\n- SQL Server\n- HTML\n- CSS\n- JavaScripts\n- JQuery"},{"id":"emp4","title":"Top Singapor's Customs - Cargo Community Network (CCN)","productLink":"","position":"Junior to Full Stack Developer","duration":"October 2015 - June 2017","company":"FPT Software - FSU1.BU1","teamSize":"8 members","description":"The customer is a Singapore company which provides cargos shipment and management system for the air cargos industry. Their service is used by many Customs around the world.\nTheir service allows the customers to:\n- Easily connect to all supply chain stakeholders\n- Access to comprehensive portfolio of advanced IT solution\n- Simplify the work in cargos management (shipment details, shipment status, …)\n- Efficient in customs security compliance\n- Business performance analytics","responsibility":"- Study Functional Design Specification\n- Produce Technical Design Specification, Design Input\n- Coding Web API.\n- Coding WCF service.\n- Coding business logic.\n- Create store procedures.\n- Coding Unit test script and integrate module.","technologies":"- C# .NET\n- ASP.NET Webform\n- Team Foundation Server 2012\n- HTML, Twitter Bootstrap, Telerick\n- JavaScript, Query\n- SQL Server 2012, 2014\n- XAML, XML"}]},"education":[{"id":"edu1","title":"1. University of Greenwich - Computer Engineering Education Programme - Honours Degree","description":"- One of few students completed the programme on time (straight forward without any retake)\n- Degree: First Class Honours"},{"id":"edu2","title":"2. Hanoi Aptech HDSE 2015 Certificate","description":""}]}]};
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+var _jsxFileName = "C:\\Git\\fullstackteam-cv\\src\\index.js";
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_4__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+const isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.1/8 is considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) {}
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(registration => {
+    registration.onupdatefound = () => {
+      const installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = () => {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(error => {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl).then(response => {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    const contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(registration => {
+        registration.unregister().then(() => {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(() => {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 0:
+/*!**********************************************************************************!*\
+  !*** multi ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Git\fullstackteam-cv\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Git\fullstackteam-cv\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[0,"runtime~main",0]]]);
+//# sourceMappingURL=main.chunk.js.map
